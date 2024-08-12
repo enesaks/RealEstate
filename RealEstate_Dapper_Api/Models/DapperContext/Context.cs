@@ -1,6 +1,7 @@
 using System;
 using System.Data;
-using Npgsql;
+using Microsoft.Data.SqlClient;
+
 
 namespace RealEstate_Dapper_Api.Models.DapperContext;
 
@@ -15,6 +16,6 @@ public class Context
         _connectionString = _configuration.GetConnectionString("connection");
     }
 
-    public IDbConnection CreateConnection() => new NpgsqlConnection(_connectionString);
+    public IDbConnection CreateConnection() => new SqlConnection(_connectionString);
 
 }

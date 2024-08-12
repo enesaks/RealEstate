@@ -51,9 +51,9 @@
               "target": "Package",
               "version": "[8.0.7, )"
             },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[5.2.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

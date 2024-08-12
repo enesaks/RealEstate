@@ -7,8 +7,4 @@
     <RootNamespace>RealEstate_Dapper_UI</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
-  </ItemGroup>
-
 </Project>

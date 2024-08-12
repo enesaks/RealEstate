@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Infrastructure;
 using RealEstate_Dapper_Api.Repositories.CategoryRepository;
 
 namespace RealEstate_Dapper_Api.Controllers
@@ -10,7 +10,6 @@ namespace RealEstate_Dapper_Api.Controllers
     public class CategoriesController : ControllerBase
     {
         private readonly ICategoryRepository _categoryRepository;
-
         public CategoriesController(ICategoryRepository categoryRepository)
         {
             _categoryRepository = categoryRepository;
@@ -21,6 +20,5 @@ namespace RealEstate_Dapper_Api.Controllers
             var values = await _categoryRepository.GetAllCategoryAsync();
             return Ok(values);
         }
-
     }
 }
