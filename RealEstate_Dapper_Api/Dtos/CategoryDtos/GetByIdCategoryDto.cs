@@ -2,7 +2,7 @@ using System;
 
 namespace RealEstate_Dapper_Api.Dtos.CategoryDtos;
 
-public class UpdateCategoryDto
+public class GetByIdCategoryDto
 {
     public int CategoryId { get; set; }
     public  string Name { get; set; }
