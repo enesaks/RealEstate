@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using RealEstate_Dapper_Api.Repositories.ProductRepository;
 
 namespace RealEstate_Dapper_Api.Controllers
 {
@@ -7,6 +8,21 @@ namespace RealEstate_Dapper_Api.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        // TODO: product controller işlemlerinde kaldın.
+        private readonly IProductRepository _productRepository;
+
+        public ProductsController(IProductRepository productRepository)
+        {
+            _productRepository = productRepository;
+        }
+        [HttpGet]
+        public async Task<IActionResult> ProductList(){
+            var values =await _productRepository.GetAllProductAsync();
+            return Ok(values.ToList());
+        }
+        [HttpGet("ProductWithCategoryList")]
+        public async Task<IActionResult> ProductWithCategoryList(){
+            var values =await _productRepository.GetAllProductWithCategoryAsync();
+            return Ok(values.ToList());
+        }
     }
 }
