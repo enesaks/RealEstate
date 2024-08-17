@@ -7,4 +7,8 @@
     <RootNamespace>RealEstate_Dapper_UI</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
 </Project>

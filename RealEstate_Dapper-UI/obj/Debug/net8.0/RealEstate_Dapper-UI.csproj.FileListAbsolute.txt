@@ -29,3 +29,6 @@
 /Users/enes/Documents/GitHub/RealEstate/RealEstate_Dapper-UI/obj/Debug/net8.0/RealEstate_Dapper-UI.pdb
 /Users/enes/Documents/GitHub/RealEstate/RealEstate_Dapper-UI/obj/Debug/net8.0/RealEstate_Dapper-UI.genruntimeconfig.cache
 /Users/enes/Documents/GitHub/RealEstate/RealEstate_Dapper-UI/obj/Debug/net8.0/ref/RealEstate_Dapper-UI.dll
+/Users/enes/Documents/GitHub/RealEstate/RealEstate_Dapper-UI/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/enes/Documents/GitHub/RealEstate/RealEstate_Dapper-UI/obj/Debug/net8.0/RealEstate_Dapper-UI.csproj.AssemblyReference.cache
+/Users/enes/Documents/GitHub/RealEstate/RealEstate_Dapper-UI/obj/Debug/net8.0/RealEsta.F845EB07.Up2Date

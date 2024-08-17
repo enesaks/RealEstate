@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ErM3GL1oLbM=",
+  "dgSpecHash": "MpLr+5NeqJ0=",
   "success": true,
   "projectFilePath": "/Users/enes/Documents/GitHub/RealEstate/RealEstate_Dapper-UI/RealEstate_Dapper-UI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/enes/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

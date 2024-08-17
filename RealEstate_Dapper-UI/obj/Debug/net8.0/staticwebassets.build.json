@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IatyHy2PacYThb7nCMVU35zQslq5iAg4GK2Xn3gKC0I=",
+  "Hash": "E/mw6j289IiLQ11UT3MjcRGoecc4ZaTLddIPoQdSuqc=",
   "Source": "RealEstate_Dapper-UI",
   "BasePath": "_content/RealEstate_Dapper-UI",
   "Mode": "Default",
@@ -338,25 +338,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/dashmin/js/main.js"
-    },
-    {
-      "Identity": "/Users/enes/Documents/GitHub/RealEstate/RealEstate_Dapper-UI/wwwroot/dashmin/LICENSE.txt",
-      "SourceId": "RealEstate_Dapper-UI",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/enes/Documents/GitHub/RealEstate/RealEstate_Dapper-UI/wwwroot/",
-      "BasePath": "_content/RealEstate_Dapper-UI",
-      "RelativePath": "dashmin/LICENSE.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/dashmin/LICENSE.txt"
     },
     {
       "Identity": "/Users/enes/Documents/GitHub/RealEstate/RealEstate_Dapper-UI/wwwroot/dashmin/lib/chart/chart.min.js",
@@ -775,6 +756,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/dashmin/lib/waypoints/waypoints.min.js"
+    },
+    {
+      "Identity": "/Users/enes/Documents/GitHub/RealEstate/RealEstate_Dapper-UI/wwwroot/dashmin/LICENSE.txt",
+      "SourceId": "RealEstate_Dapper-UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/enes/Documents/GitHub/RealEstate/RealEstate_Dapper-UI/wwwroot/",
+      "BasePath": "_content/RealEstate_Dapper-UI",
+      "RelativePath": "dashmin/LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/dashmin/LICENSE.txt"
     },
     {
       "Identity": "/Users/enes/Documents/GitHub/RealEstate/RealEstate_Dapper-UI/wwwroot/dashmin/READ-ME.txt",
